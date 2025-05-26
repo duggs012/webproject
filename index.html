@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shelton Damani - Data Analyst</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    :root {
+      --primary: #27ae60;
+      --dark: #2c3e50;
+      --light: #ecf0f1;
+      --shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    
+    header {
+      background: var(--dark);
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 1rem auto;
+      display: block;
+      border: 5px solid var(--primary);
+    }
+    
+    section {
+      padding: 4rem 0;
+    }
+    
+    section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: var(--primary);
+    }
+    
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+    }
+    
+    .about-text {
+      flex: 1;
+      min-width: 300px;
+    }
+    
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    
+    .skill-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 5px;
+      box-shadow: var(--shadow);
+      flex: 1;
+      min-width: 250px;
+      text-align: center;
+    }
+    
+    .skill-card i {
+      font-size: 3rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    
+    .project-card {
+      background: white;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    
+    .project-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .project-info {
+      padding: 1.5rem;
+    }
+    
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 5px;
+      box-shadow: var(--shadow);
+    }
+    
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    
+    .form-group textarea {
+      height: 150px;
+    }
+    
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+      background: #219653;
+    }
+    
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    .social-links a {
+      color: var(--dark);
+      font-size: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    
+    .social-links a:hover {
+      color: var(--primary);
+    }
+    
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 2rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shelton Damani</h1>
+    <p>Data Analyst | Data analysis from comlex data into actionable recommendations.</p>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hello! I'm Shelton Damani, a passionate data analyst  based in Harare, Zimbabwe. I specialize in using mathematical and computational techniques to analyze and interpret complex datasets into actionable reasons that drive business growth.</p>
+          <p>With a strong foundation in both R software, machine learning and data visualization.</p>
+        </div>
+        <div class="education">
+          <h3>Education</h3>
+          <p><strong>MIDLANDS STATE UNIVERSITY, Harare</strong> (2023-2027)</p>
+          <p>Bachelor's Degree in Applied Mathematics and Computational Science</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="expertise">
+    <div class="container">
+      <h2>My Expertise</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Data Analysis</h3>
+          <p>Extracting meaningful insights from complex datasets using statistical methods and analytical toolst</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-server"></i>
+          <h3>Data Management</h3>
+          <p>Cleaning, transforming, and managing large datasets for optimal analysis and reporting</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Data Visualization</h3>
+          <p>Creating compelling visual representations of data to communicate insights effectively</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>Python R</h3>
+          <p>Pandas, NumPy, Scikit learn</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h3>Machine learning</h3>
+          <p>SVM's, neural networks</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h3>Optimization and Operation Research</h3>
+          <p>Graph algorithms,inter programming</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Self-performance dashboard</h3>
+            <p>Analyze sales data to identify trends, top-performing products, and regional performance.</p>
+            <p><strong>Technologies:</strong>Data Cleaning & Analysis, Visualization, Data Storage and Automation</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Customer Segmentation Analysis</h3>
+            <p>Group customers based on purchasing behaviour(RFM Analysis) for targeted marketing.</p>
+            <p><strong>Technologies:</strong>Data Processing,Clustering Algorithms,Visualization and Reporting</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Web Traffic and User Behaviour Analysis</h3>
+            <p>Analyze website traffic sources, bounce rates and conversion paths</p>
+            <p><strong>Technologies:</strong>Data Collection, Processing, Visualization </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:omtestmail@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Om Kharche. All rights reserved.</p>
+  </footer>
+</body>
+</html>
